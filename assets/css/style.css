@@ -123,12 +123,13 @@ header {
   background: none;
 }
 
-.contact h2 {
+h2 {
   color: var(--tertiary-color);
   border-right: 3px solid var(--tertiary-color);
+  padding: 0 10px 0 0;
 }
 
-.contact-me-flex {
+.about-me-flex  {
   display: flex;
   padding: 7px 10px;
   font-size: 16px;
@@ -143,7 +144,7 @@ header {
   padding-top: 5px;
 }
 
-.contact-me-flex-row {
+.about-me  {
   display: flex;
   justify-content: start;
   flex-wrap: wrap;
@@ -157,7 +158,34 @@ header {
   background-color: rgba(255,255,255, 0.75);
 }
   
-  /* SERVICE PLANS END */
+  /* ABOUT ME END */
+
+  .work-flex  {
+    display: flex;
+    padding: 7px 10px;
+    font-size: 16px;
+    color: var(--tertiary-color);
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    background-color: rgba(255,255,255, 0.75);
+  }
+
+  .work  {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 7px 12px;
+    font-size: 16px;
+    color: var(--tertiary-color);
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    background-color: rgba(255,255,255, 0.75);
+  }
+
+
 
   .text-left {
     text-align: left;
