@@ -122,6 +122,12 @@ header {
 .about-me {
   margin: auto;
 }
+
+.about-me p {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
   
   /* ABOUT ME END */
 
@@ -193,6 +199,52 @@ header {
   
 
   /* WORK end */
+
+  /* CONTACT-ME start */
+  
+  .contact {
+  display: flex;
+  position: -webkit-sticky;
+  top: 0;
+  padding: 20px 35px;
+
+  }
+
+  .contact nav {
+  margin: 10px;
+  list-style-type: none;
+  padding: 13px 20px 0 0;
+  width: 80%;
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  }
+
+  .contact nav ul  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+  }
+
+  .contact nav ul li {
+    list-style-type: none;
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px;
+    height: 100%;
+  }
+
+  .contact a {
+    color: orange;
+    border-bottom: 3px solid;
+    padding-bottom: 5px;
+  }
+
+ 
+
+  /* CONTACT-ME end */
   .text-left {
     text-align: left;
   }
