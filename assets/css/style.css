@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #fce138;
+    --primary-color: yellowgreen;
     --secondary-color: #1d3c4d;
     --tertiary-color: #236a72;
   }
@@ -31,13 +31,10 @@ header {
     background-image: url('../images/sl23.png');
     display: flex;
     position: -webkit-sticky;
-    position: sticky;
     top: 0;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px 35px;
-    background-color: var(--tertiary-color);
-    background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
     z-index: 9999;
@@ -152,6 +149,11 @@ header {
    font-size: 36px;
    text-align: end;
    overflow: auto;
+   text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.about-me p {
+  padding: 10px 0 10px 0
 }
 
   /* cut out
@@ -163,16 +165,29 @@ header {
   }
 
   */
-  
+
+  /* GRID AND GRID STYLE start */
+
   .grid-wrapper {
     display: grid;
     column-gap: 10px;
     row-gap: 10px;
     grid-auto-flow: dense;
-    /* create a 12 column grid */
     grid-template-columns: repeat(12, 1fr);
-    /* set each row to be atleast 150px tall and a max of 1fr */
     grid-auto-rows: minmax(150px, 1fr);
+  }
+
+  .grid-wrapper a {
+    background-color: rgba(54, 69, 79, 0.8);
+    border-radius: 4px;
+    padding: 2px 8px 2px 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .grid-wrapper div {
+    padding: 10px 10px 10px 0;
+    border: 5px solid;  
   }
 
   .grid-item {
@@ -190,7 +205,7 @@ header {
     transition: all 0.5s;
     font-size: 0.9rem;
   }
-  /* feature first portfolio item */
+  
   .grid-item:first-child {
       grid-column: span 8;
       grid-row: span 2;
@@ -199,27 +214,16 @@ header {
   .grid-item:hover {
     background-color: rgba(0, 0, 0, 0.3);
   }
-  .grid-item div {
-    background-color: var(--secondary);
-    padding: 8px 10px;
-  }
-
-  /* maybe seperate here */
+ 
   .grid-item h3 {
     font-size: 1.6rem;
-    color: yellowgreen;
+    color: var(--primary-color);
   }
 
   .grid-item p {
-    color: yellowgreen;
+    color: var(--primary-color);
   }
-  
-  .work-flex {
-      display: flex;
-      flex-direction: row;
-      justify-content: left;
-  }
-  
+
   .work-grid-container-1 div {
    border: 4px var(--tertiary-color) solid;
    border-radius: 15px;
@@ -245,19 +249,16 @@ header {
   }
 
   .work-grid-4 {
-    background-image: url("../images/lewisoutdoor-screenshot.png");
+    background-image: url("../images/run-buddy-screenshot.png");
     background-size: cover;
   }
 
   .work-grid-5 {
-    background-image: url("../images/lewisoutdoor-screenshot.png");
+    background-image: url("../images/horiseon-screenshot.png");
     background-size: cover;
   }
 
-  /* specific match */
-  
-  
-
+/* GRID AND GRID STYLE end */
   /* WORK end */
 
   /* CONTACT-ME start */
@@ -266,6 +267,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
+    padding-bottom: 30px;
 }
 
 .contact-me div {
@@ -276,14 +278,23 @@ header {
 } 
 
 .contact-me a {
-  padding: 1em;
-  margin: 15px 0 50px 0;
-  border-bottom: 3px solid;
+  padding: 10px 5px 8px 5px;
+  margin: 10px 0px 24px 0;
+  border-bottom: 5px solid;
+  font-family: cursive;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--tertiary-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-
-
- 
+.contact-me a:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 15px;
+  text-shadow: none;
+}
 
   /* CONTACT-ME end */
   .text-left {
