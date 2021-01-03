@@ -34,7 +34,7 @@ header {
     top: 0;
     justify-content: space-between;
     flex: row wrap;
-    padding: 20px 35px;
+    padding: 15px 35px;
     background-attachment: fixed;
     background-position: top;
     background-size: 50%; 
@@ -327,8 +327,13 @@ header {
     display: flex;
   }
 
-  
-
+  @media screen and (max-width: 768px) {
+    section {
+    }
+      header {
+        background-size: 70%;
+      }
+    }
   @media screen and (max-width: 575px) {
     .media-queries {
      
@@ -340,7 +345,6 @@ header {
       justify-content: center;
       font-size: 1.4vw;
       align-items: center;
-      background-position: top;
     }
 
     header h1 {
@@ -426,5 +430,9 @@ header {
     border-bottom: 1px solid;
   }
   
+  footer {
+    text-align: center;
+  }
+}
 
  
