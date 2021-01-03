@@ -8,11 +8,10 @@
 * [Link to site](#link-to-site)
 * [Screenshot](#screenshot-of-landing-page)
 * [Credits](#credits)
-* [Some help from the web](#some-help-from-the-web)
 * [License](#license)
 
 
-I am repairing this site to improve the function and try and clean up the coding as much as possible to provide a better flow.
+I built this site to display a portfolio of myself; there is not much now but I will be adding as I go along. I left the Lorem Ipsum text in as I do not know what to say about myself at this time; I expect by the time I am done with this BootCamp I will have this all filled out and even multiple pages to this expanding portfolio. Please enjoy what I can provide at this time. 
 
 ## Installation
 
@@ -21,38 +20,27 @@ Click the link to site in this README and it will take you to the landing page f
 ## Html changes
 
 // Html changes //
-Changed Tab title to Horiseon
 
-Fixed id attribute for search engine optimization
+At this time all HTML is new and any changes in the future will be updated here...
 
 # CSS changes
 /* CSS changes */ 
 
-/* benefits div combined repetitive css properties for div; h3; img */
-
-/* .search-engine-optimization; .online-reputation-management; .social-media-marketing; combined into one to cleanup */ 
-
-/* Changed to min-height to keep words in div when resizing window */
+At this time all HTML is new and any changes in the future will be updated here...
 
 ## Link to site
 
-https://lewisoutdoorllc.github.io/horiseon-website/
+https://lewisoutdoorllc.github.io/lewisportfolio/
 
 ## Screenshot of landing page
 
-![alt text](assets/images/screenshot-horiseon-website.png)
+![alt text](./assets/images/lewis-portfolio-screenshot.png)
+![alt text](./assets/images/lewis-portfolio-mobile-screenshot.png)
 
 ## Credits
 
-Thanks for all the help from Carlos for making this happen with GIT and GITHUB; changing computers in the middle of all this can really put a screw in things. 
+Thanks for all the help from Kip my partner on this little venture for making this happen with everything; we spent over 40 hours and finally got this thing ironed out. Cheers..
 
-## Some help from the web
-
-/* helping keep elements from popping out of div */
-https://stackoverflow.com/questions/19367217/how-to-make-elements-stop-from-moving-when-resizing-the-window-after-using-perce/19367449
-
-/* making a screenshot of entire page with chrome */
-https://www.computerworld.com/article/3408017/capture-screenshots-chrome.html
 ## License
 
 Copyright (c) 2012-2020 Scott Chacon and others
