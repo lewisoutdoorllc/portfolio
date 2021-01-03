@@ -36,7 +36,8 @@ header {
     flex: row wrap;
     padding: 20px 35px;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: top;
+    background-size: 50%; 
     position: sticky;
     z-index: 9999;
   }
@@ -102,6 +103,7 @@ header {
     position: sticky;
     background-image: url('../images/Port-1.jpg');
     background-position: center;
+    background-size: 50%;
     min-height: 30vh;
   }
 
