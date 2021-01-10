@@ -6,6 +6,7 @@
 * [Html changes](#html-changes)
 * [CSS changes](#css-changes)
 * [Link to site](#link-to-site)
+* [Portfolio Pic](#portfolio-pic)
 * [Screenshot](#screenshot-of-landing-page)
 * [Credits](#credits)
 * [License](#license)
