@@ -33,7 +33,7 @@ At this time all HTML is new and any changes in the future will be updated here.
 https://lewisoutdoorllc.github.io/lewisportfolio/
 
 ## Portfolio Pic
-![alt text](./assets/images/profile-pic.jpeg)
+![alt text](./assets/images/profile-pic.jpg)
 
 ## Screenshot of landing page
 
