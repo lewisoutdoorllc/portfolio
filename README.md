@@ -1,4 +1,4 @@
-# lewisportfolio
+# password-gen-one
 
 ## Table of Contents 
 
@@ -11,7 +11,9 @@
 * [License](#license)
 
 
-I built this site to display a portfolio of myself; there is not much now but I will be adding as I go along. I left the Lorem Ipsum text in as I do not know what to say about myself at this time; I expect by the time I am done with this BootCamp I will have this all filled out and even multiple pages to this expanding portfolio. Please enjoy what I can provide at this time. 
+I enhanced this site to help the user generate a random password as needed so the user can provide better security per there request. You can choose a password between
+8-128 caracters and you have the choice to include uppercase, lowercase, number, and/or symbols. This also provides a number of other varibles by having a built in
+generator to make the password even more random. 
 
 ## Installation
 
@@ -21,25 +23,30 @@ Click the link to site in this README and it will take you to the landing page f
 
 // Html changes //
 
-At this time all HTML is new and any changes in the future will be updated here...
+Added a built in random password generator; any changes in the future will be updated here...
 
 # CSS changes
 /* CSS changes */ 
 
-At this time all HTML is new and any changes in the future will be updated here...
+Changes to h2 center for text and outline for btn..
 
 ## Link to site
 
-https://lewisoutdoorllc.github.io/lewisportfolio/
+https://lewisoutdoorllc.github.io/password-gen-one/
 
 ## Screenshot of landing page
 
-![alt text](./assets/images/lewis-portfolio-screenshot.png)
-![alt text](./assets/images/lewis-portfolio-mobile-screenshot.png)
+![alt text](./develop/pictures/landing-page-screenshot.png)
 
 ## Credits
 
-Thanks for all the help from Kip my partner on this little venture for making this happen with everything; we spent over 40 hours and finally got this thing ironed out. Cheers..
+Thanks for all the help from Kip, Urika, and Kevin my partner on this little venture for making this happen.. Always fun!! Cheers..
+
+//  Links that helped get to the proper conclusion for providing the solutions to our users requirements..
+
+https://stackoverflow.com/questions/1497481/javascript-password-generator/29770068
+
+https://stackoverflow.com/questions/59340866/random-password-generator-javascript-not-working
 
 ## License
 
