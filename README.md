@@ -6,6 +6,7 @@
 * [Html changes](#html-changes)
 * [CSS changes](#css-changes)
 * [Link to site](#link-to-site)
+* [Portfolio Pic](#portfolio-pic)
 * [Screenshot](#screenshot-of-landing-page)
 * [Credits](#credits)
 * [License](#license)
@@ -33,6 +34,9 @@ Changes to h2 center for text and outline for btn..
 ## Link to site
 
 https://lewisoutdoorllc.github.io/password-gen-one/
+
+## Portfolio Pic
+![alt text](./assets/images/profile-pic.jpg)
 
 ## Screenshot of landing page
 
