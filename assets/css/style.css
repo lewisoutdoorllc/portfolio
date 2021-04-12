@@ -242,12 +242,12 @@ header {
   }
 
   .work-grid-2 {
-    background-image: url("../images/horiseon-screenshot.png");
+    background-image: url("../images/tech_blog.gif");
     background-size: cover;
   }
 
   .work-grid-3 {
-    background-image: url("../images/run-buddy-screenshot.png");
+    background-image: url("../images/screen_shot_1.png");
     background-size: cover;
   }
 
@@ -258,6 +258,11 @@ header {
 
   .work-grid-5 {
     background-image: url("../images/horiseon-screenshot.png");
+    background-size: cover;
+  }
+
+  .work-grid-6 {
+    background-image: url("../images/sports-screenshot.png");
     background-size: cover;
   }
 
