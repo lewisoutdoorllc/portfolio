@@ -40,7 +40,7 @@ https://lewisoutdoorllc.github.io/password-gen-one/
 
 ## Screenshot of landing page
 
-![alt text](./develop/pictures/landing-page-screenshot.png)
+![alt text](./assets/images/lewis-portfolio-screenshot.png)
 
 ## Credits
 
